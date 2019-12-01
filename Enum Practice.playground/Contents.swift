@@ -10,18 +10,29 @@ print(result4)
 
 enum Artists: String {
     
-    case Drake
-    case Kanye
-    case Feist
+    case fiest
+    case kanye
+    case johnLegend
+    case rubbelBucket
+    case sia
     
 }
 
-var artist = Artists.Drake
+var artist = Artists.sia
 
 switch artist {
-case .Drake:
     
-default:
-    <#code#>
+case .fiest:
+    print("Let It Die")
+case .kanye:
+    print("Late Registration")
+case .johnLegend:
+    print("Once Again")
+case .rubbelBucket:
+    print("Sun Machine")
+case .sia:
+    print("1000 Forms Of Fear")
+
 }
+
 
